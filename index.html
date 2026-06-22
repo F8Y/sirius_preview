@@ -58,9 +58,10 @@
         .hd {
             display: flex;
             align-items: center;
-            gap: 12px;
-            height: 58px;
-            flex-wrap: wrap
+            gap: 10px 14px;
+            min-height: 58px;
+            flex-wrap: wrap;
+            padding: 8px 0
         }
 
         .logo {
@@ -220,6 +221,50 @@
             .g3,
             .g4 {
                 grid-template-columns: 1fr
+            }
+
+            .hd {
+                gap: 8px
+            }
+
+            .logo {
+                order: 1
+            }
+
+            .roles {
+                order: 2;
+                margin-left: auto
+            }
+
+            .hd-right {
+                order: 3;
+                width: 100%;
+                margin-left: 0;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                gap: 6px
+            }
+
+            .brand small {
+                display: none
+            }
+
+            .chip {
+                font-size: 12px;
+                padding: 3px 8px
+            }
+
+            nav a {
+                font-size: 13px;
+                padding: 9px 2px
+            }
+
+            h1 {
+                font-size: 24px
+            }
+
+            .hero h2 {
+                font-size: 22px
             }
         }
 
